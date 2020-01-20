@@ -18,7 +18,7 @@ bin/kafka-console-producer.sh —-broker-list localhost:9092 —-topic test
 #eg.This is an first message
 
 #Step 5 : Start consumer
-bin/kafka-console-consumer.sh —bootstrap-server localhost:9092 —-topic test —from-beginning
+bin/kafka-console-consumer.sh —-bootstrap-server localhost:9092 —-topic test —from-beginning
 
 #Step 6 : Multi-Cluster
 #Create config file for nodes
